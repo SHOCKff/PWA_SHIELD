@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+#e2{
+    margin-left: 30px;
+    
+}
+
+#paste_button,#copy_button{
+    border-style: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35vw;
+    text-align: center;
+    border-radius: 9px;
+    background-color: rgba(67, 235, 118, 0.515);
+    
+}
+#web_button{
+    margin-left: 8vw;
+}
+#Entry_box{
+    border-bottom: 1px solid black;
+}
+#Output_box{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#generate_button{
+    margin-top: 20px;
+    margin-left: 33vw;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background-color: yellow;
+}
+#key{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.user-select{
+    user-select: none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="code.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+
+    <title>SHELD</title>
+</head>
+<body>
+      <div id="Entry_box">
+      <h1 class="user-select">Enter the text in box</h1>
+      <textarea placeholder="Enter Text" name="textareas" id="textbox1" cols="40" rows="10"></textarea>
+      <br>
+      <button id="paste_button" class="user-select">paste</button>
+      </div>
+
+      <button id="generate_button" class="user-select">Generate</button>
+      
+      <div id="Output_box">
+      <h1 id="e2" class="user-select">Output text</h1>
+      <textarea placeholder=" Output Text" name="textareas" id="textbox2" cols="40" rows="10"></textarea>
+      <br>
+      <button id="copy_button" class="user-select">copy</button>
+      <button id="web_button" class="user-select">Websearch</button>
+      </div>
+
+      <div id="key" class="user-select">
+        <p>Select The key Range To Unlock :</p> 
+        <input type="range" min="00" max="25" value="1" id="myrange">
+      </div>
+</body>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(() => console.log('✅ Service Worker registered'))
+      .catch(error => console.error('❌ Service Worker registration failed:', error));
+  }
+  else{console.log(420)}
+});
+</script>
+
+<script src="code.js"></script>
+</html>

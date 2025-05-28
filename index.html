@@ -35,7 +35,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js')
+    navigator.serviceWorker.register('/PWA_SHEILD/sw.js', { scope: '/PWA_SHEILD/' })
       .then(() => console.log('✅ Service Worker registered'))
       .catch(error => console.error('❌ Service Worker registration failed:', error));
   }

@@ -1,6 +1,6 @@
 {
-  "name": "SHELD",
-  "short_name": "SHELD",
+  "name": "SHIELD",
+  "short_name": "SHIELD_PWA",
   "start_url": "/PWA_SHEILD/",
   "scope": "/PWA_SHEILD/",
   "display": "standalone",
@@ -9,11 +9,6 @@
   "icons": [
     {
       "src": "/PWA_SHEILD/shield_512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "PWA_SHEILD/shield_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

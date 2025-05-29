@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navigator.serviceWorker.register('/PWA_SHEILD/sw.js', { scope: '/PWA_SHEILD/' })
       .then(() => {
         console.log('✅ Service Worker registered');
-        alert("✅ SHELD is ready! You can install it from the browser menu (3 dots → Add to Home screen).");
+        //alert("✅ SHELD is ready! You can install it from the browser menu (3 dots → Add to Home screen).");
       })
       .catch(error => console.error('❌ Service Worker registration failed:', error));
   } else {

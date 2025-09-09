@@ -1,8 +1,8 @@
 {
   "name": "SHIELD",
   "short_name": "SHIELD_PWA",
-  "start_url": "/PWA_SHEILD/",
-  "scope": "/PWA_SHEILD/",
+  "start_url": "/PWA_SHIELD/",
+  "scope": "/PWA_SHIELD/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -14,3 +14,4 @@
     }
   ]
 }
+

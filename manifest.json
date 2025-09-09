@@ -8,10 +8,11 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/PWA_SHEILD/shield_512.png",
+      "src": "/PWA_SHIELD/shield_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ]
 }
+
 

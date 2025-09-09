@@ -1,11 +1,11 @@
-const CACHE_NAME = 'sheld-cache-v1';
+const CACHE_NAME = 'shield-cache-v1';
 const urlsToCache = [
   './',
   './index.html',
   './code.css',
   './code.js',
   './manifest.json',
-  './sheild_image.png'
+  './shieldd_image.png'
 ];
 
 self.addEventListener('install', event => {
@@ -21,3 +21,4 @@ self.addEventListener('fetch', event => {
       .then(response => response || fetch(event.request))
   );
 });
+

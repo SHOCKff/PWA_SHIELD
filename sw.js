@@ -5,7 +5,7 @@ const urlsToCache = [
   './code.css',
   './code.js',
   './manifest.json',
-  './shieldd_image.png'
+  './shield_image.png'
 ];
 
 self.addEventListener('install', event => {
@@ -21,4 +21,5 @@ self.addEventListener('fetch', event => {
       .then(response => response || fetch(event.request))
   );
 });
+
 
